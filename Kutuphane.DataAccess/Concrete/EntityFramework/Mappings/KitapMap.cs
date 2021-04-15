@@ -12,7 +12,7 @@ namespace Kutuphane.DataAccess.Concrete.EntityFramework.Mappings
     {
         public KitapMap()
         {
-            ToTable(@"kitap", "dbo");
+            ToTable(@"Kitaplar", "dbo");
 
             HasKey(x => x.KitapNumarasi);
 

@@ -12,7 +12,7 @@ namespace Kutuphane.DataAccess.Concrete.EntityFramework.Mappings
     {
         public TurMap()
         {
-            ToTable(@"tur", @"dbo");
+            ToTable(@"Turler", @"dbo");
 
             HasKey(x => x.Id);
 

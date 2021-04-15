@@ -12,7 +12,7 @@ namespace Kutuphane.DataAccess.Concrete.EntityFramework.Mappings
     {
         public IslemMap()
         {
-            ToTable(@"islem", "dbo");
+            ToTable(@"Islemler", "dbo");
 
             HasKey(x => x.Id);
             Property(x => x.Id).HasColumnName("islemno");

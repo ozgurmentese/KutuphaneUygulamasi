@@ -12,7 +12,7 @@ namespace Kutuphane.DataAccess.Concrete.EntityFramework.Mappings
     {
         public OgrenciMap()
         {
-            ToTable(@"ogrenci", "dbo");
+            ToTable(@"Ogrenciler", "dbo");
 
             HasKey(x => x.Numarasi);
 
